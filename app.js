@@ -4,7 +4,7 @@ var express = require('express');
 const { fstat } = require('fs');
 var path = require('path');
 var fs = require('fs');
-const { resolve6 } = require('dns/promises');
+//const { resolve6 } = require('dns/promises');
 var app = express();
 //new
 const PORT = process.env.PORT || 3030;
